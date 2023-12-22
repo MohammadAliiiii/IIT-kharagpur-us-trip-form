@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+background: violet;
+padding: 34px;
+max-width: 80%;
+margin: auto;
+text-align: center;
+}
+input, textarea{
+    width: 80%;
+    margin: 11px;
+    padding: 7px;
+    font-size: large;
+    border: 2px solid black;
+    border-radius: 1vh;
+}
+/* {
+    width: 80%;
+    margin: 11px;
+    padding: 7px;
+} */
+.box{
+    height: 100%;
+    width: 100%;
+}
+.btn{
+    background: green;
+    height: 4vh;
+    width: 4vw;
+    border: none;
+    border-radius: 1vh;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.btn:hover{
+    background: yellow;
+    color: black;
+}
